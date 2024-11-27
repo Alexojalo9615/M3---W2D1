@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+
+  background-image: url(./assets/Malinconia\ 2.jpg);
+}
+
+
+#nav {
+
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar-brand {
+
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: rgba(147, 43, 147);
+
+}
+
+.navbar-toggler {
+  background-color: white;
+  border: white;
+
+}
+
+.nav-link {
+
+  color: white;
+}
+
+.nav-link:hover {
+
+  color: rgb(147, 43, 147);
+  ;
+}
+
+#act {
+
+  color: white;
+}
+
+#act:hover {
+  color: rgb(147, 43, 147);
+}
+
+
+.container {
+  min-height: 60vw;
+}
+
+.toggle-btn {
+
+  width: 100px;
+  position: sticky;
+  z-index: 1;
+  border: 3px rgb(147, 43, 147) solid;
+  font-weight: 400;
+  color: #f8f9fa;
+  font-size: 1rem;
+  margin-left: 1150px;
+  margin-top: 48px;
+  top: 5rem;
+}
+
+#btn3 {
+
+  margin-left: 1170px;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  #btn1 {
+
+    margin-left: 780px;
+
+
+  }
+
+  #btn2 {
+
+    margin-left: 780px;
+  }
+
+  #btn3 {
+
+    margin-left: 810px;
+  }
+
+  #btn4 {
+    margin-left: 780px;
+
+  }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  #btn1 {
+
+    margin-left: 570px;
+
+  }
+
+  #btn2 {
+
+    margin-left: 570px;
+  }
+
+  #btn3 {
+
+    margin-left: 580px;
+  }
+
+  #btn4 {
+    margin-left: 570px;
+
+  }
+
+
+}
+
+@media (max-width: 576px) {
+
+  #btn1 {
+
+    margin: auto;
+
+  }
+
+  #btn2 {
+
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  #btn3 {
+
+    margin: auto;
+  }
+
+  #btn4 {
+    margin: auto;
+
+  }
+
+  #container-nin2 {
+
+    flex-wrap: wrap;
+  }
+
+  .container2 {
+
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+
+}
+
+
+#row1 {
+
+  margin-top: 100px;
+}
+
+.card {
+
+  margin: 1em;
+}
+
+.card div:nth-of-type(1) h5 {
+  font-size: 21px;
+}
+
+.card div:nth-of-type(2) a {
+  text-decoration: none;
+  color: rgb(147, 43, 147);
+}
+
+.container2 {
+
+  padding: 12px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 200px;
+  min-height: 50vw;
+}
+
+#nin {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.container2-son {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  top: 50%;
+  gap: 10px;
+}
+
+.container2 h1 {
+
+  color: white;
+  width: auto;
+  font-size: 50px;
+}
+
+
+.container2 p {
+
+  color: white;
+  width: auto;
+  font-size: 25px;
+}
+
+#peggio {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0px;
+  color: white;
+  min-height: 50vw;
+  margin-bottom: 200px;
+
+}
+
+#peggio h2 {
+
+  font-size: 50px;
+}
+
+
+#worst1 {
+
+  height: 100px;
+  align-content: center;
+  margin-top: 100px;
+}
+
+#worst {
+
+  justify-content: center;
+  gap: 0px 40px;
+}
+
+#worst img {
+
+  width: 100%;
+}
+
+#worst div {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+
+#worst h3,
+h4,
+h5 {
+
+  font-size: 30px;
+}
+
+#worst p {
+
+  font-size: 20px;
+
+}
+
+
+#kitty {
+
+  margin-bottom: 300px;
+}
+
+#kitty img {
+
+  width: 100%;
+}
+
+#btn4 {
+
+  margin-bottom: 20px;
+}
